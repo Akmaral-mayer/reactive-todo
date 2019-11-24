@@ -1,22 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+
 .App {
+  margin: 0 auto;
+  width: 1000px;
+  display: grid;
+  justify-items: center;
+}
+
+h1 {
+  font-family: 'Kaushan Script', cursive;
+  color: #F4A460;
+  text-shadow: 1px 1px 3px #222;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+body {
+  margin: 0;
+  background-image: url(./bg.jpg);
+  background-size: 100%;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.mainBlock {
+  width: 40em;
+  background: #008080;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  opacity: 0.9;
+  margin-bottom: 2em;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.todo-item {
+  display: grid;
+  grid-template-columns: 8fr 1fr;
+  border-bottom: 1px solid white;
+  text-align: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.todo-item:hover {
+  border-bottom: 1px solid #F4A460;
+}
+
+.todo-item-left {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+}
+
+input[type=checkbox] {
+  justify-self: center;
+  align-self: center;
+  cursor: pointer;
+}
+
+.extra-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  align-items: center;
+}
+
+.remove-item {
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.todo-item-label {
+  padding: 10px;
+  margin-left: 12px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.active {
+  background-color: green;
+}
+
+input:focus {
+  outline: none;
+}
+
+input {
+  text-align: center;
+  font-size: 18px;
+}
+
+.editTodo {
+  background: none;
+  border: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  height: 39px;
+}
+
+button {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #F4A460;
+  border: none;
+  cursor: pointer;
+}
+
+.todo-input {
+  font-family: 'Josefin Sans', sans-serif;
 }
