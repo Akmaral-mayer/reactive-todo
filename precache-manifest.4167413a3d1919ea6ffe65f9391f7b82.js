@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e4b865a4a9f0535dbe2735445cc2e7f0",
+    "revision": "aff778c20c8689109b8da598955135d4",
     "url": "/reactive-todo/index.html"
   },
   {
-    "revision": "4ba3b27a293fc199d7d7",
+    "revision": "bc42c5bfa48ca1354daa",
     "url": "/reactive-todo/static/css/main.ec064190.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactive-todo/static/js/2.bba49d5c.chunk.js"
   },
   {
-    "revision": "4ba3b27a293fc199d7d7",
-    "url": "/reactive-todo/static/js/main.a6c82efc.chunk.js"
+    "revision": "bc42c5bfa48ca1354daa",
+    "url": "/reactive-todo/static/js/main.3191ff69.chunk.js"
   },
   {
     "revision": "0d149e37ec8c5f9d24dc",
