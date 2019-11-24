@@ -92,26 +92,7 @@ class App extends Component {
     filter: 'all',
     beforeEditCash: '',
     idForTodo: 9,
-    todos: [
-      // {
-      //   'id': 1,
-      //   'title': 'Finish React Screencast',
-      //   'completed': false,
-      //   'editing': false
-      // },
-      // {
-      //   'id': 2,
-      //   'title': 'Take over the world',
-      //   'completed': false,
-      //   'editing': false
-      // },
-      // {
-      //   'id': 3,
-      //   'title': 'Be the best of the bests',
-      //   'completed': false,
-      //   'editing': false
-      // }
-    ]
+    todos: []
   }
 
   addTodo = (event) => {
@@ -127,7 +108,7 @@ class App extends Component {
         completed: false,
       })
         .then(res => {
-          console.log("POST req answer is " + res.status);
+          alert("POST req status is " + res.status);
         })
 
       this.setState((prevState, props) => {
