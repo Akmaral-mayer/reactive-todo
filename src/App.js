@@ -5,9 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Here will be my first todo-list on react
-      </header>
+      Here will be my first todo-list on react
     </div>
   );
 }
