@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/reactive-todo/static/css/main.b100e6da.chunk.css",
-    "main.js": "/reactive-todo/static/js/main.2bc9ac2a.chunk.js",
-    "main.js.map": "/reactive-todo/static/js/main.2bc9ac2a.chunk.js.map",
+    "main.js": "/reactive-todo/static/js/main.773ecb14.chunk.js",
+    "main.js.map": "/reactive-todo/static/js/main.773ecb14.chunk.js.map",
     "runtime-main.js": "/reactive-todo/static/js/runtime-main.979fabdc.js",
     "runtime-main.js.map": "/reactive-todo/static/js/runtime-main.979fabdc.js.map",
-    "static/js/2.645af1ff.chunk.js": "/reactive-todo/static/js/2.645af1ff.chunk.js",
-    "static/js/2.645af1ff.chunk.js.map": "/reactive-todo/static/js/2.645af1ff.chunk.js.map",
+    "static/js/2.70bb5eae.chunk.js": "/reactive-todo/static/js/2.70bb5eae.chunk.js",
+    "static/js/2.70bb5eae.chunk.js.map": "/reactive-todo/static/js/2.70bb5eae.chunk.js.map",
     "index.html": "/reactive-todo/index.html",
-    "precache-manifest.7310c116a66e229c490a09f2a6215361.js": "/reactive-todo/precache-manifest.7310c116a66e229c490a09f2a6215361.js",
+    "precache-manifest.4d0d774cc696e2278cb7b0f05dc0b6b6.js": "/reactive-todo/precache-manifest.4d0d774cc696e2278cb7b0f05dc0b6b6.js",
     "service-worker.js": "/reactive-todo/service-worker.js",
     "static/css/main.b100e6da.chunk.css.map": "/reactive-todo/static/css/main.b100e6da.chunk.css.map",
     "static/media/logo.svg": "/reactive-todo/static/media/logo.25bf045c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.979fabdc.js",
-    "static/js/2.645af1ff.chunk.js",
+    "static/js/2.70bb5eae.chunk.js",
     "static/css/main.b100e6da.chunk.css",
-    "static/js/main.2bc9ac2a.chunk.js"
+    "static/js/main.773ecb14.chunk.js"
   ]
 }
